@@ -68,6 +68,7 @@ def svm_train_test_split():
     y_pred = classifier.predict(X_test)
     print(classifier.score(X_test, y_test))
 
+
 def Neural_Network():
 
     kf = KFold(n_splits=5)

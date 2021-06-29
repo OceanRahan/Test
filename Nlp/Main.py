@@ -15,7 +15,7 @@ classes=[]
 documents=[]
 data_file=open('intents.json', encoding="utf-8")
 tokenizer=Tokenizer()
-s=[]
+
 intents=json.load(data_file)
 for intent in intents['intents']:
     for pattern in intent['patterns']:
